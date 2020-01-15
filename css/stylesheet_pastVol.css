@@ -1,0 +1,59 @@
+.cardContent {
+    margin-left: 250px;
+    margin-top: 1em;
+    margin-bottom:0;
+}
+
+.card-body {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 2em;
+
+}
+
+
+.imgV {
+    margin: 0 0em;
+    padding: 1em;
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    box-sizing: border-box;
+/*    padding: 1em;*/
+    float: right;
+    
+}
+
+.containerCard {
+    padding: 0;
+}
+
+
+@media (max-width:800px) {
+/*        text-align: center;*/
+    
+
+    .card-header {
+        text-align: center;
+    }
+
+    .content {
+        padding: 0 0 2%;
+    } 
+
+
+    .navbar-brand{
+        margin-left: 0px;
+        transition: margin-left 0.5s;
+    }
+    
+     #total {
+        margin-left: 290px;
+    }
+
+
+
+}
+
+

@@ -1,0 +1,96 @@
+
+
+#bg1 {
+    text-align: center;
+    background: linear-gradient(rgba(20, 20, 20, 0.9),
+        rgba(20, 20, 20, .5)), url('../images/children_laughing.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.8;
+    min-height: 100%;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    padding: 50px 4px 0 4px;
+}
+
+.container {
+    padding: 0 9%;
+}
+
+.bg-light {
+    opacity: 0.95;
+}
+
+/*
+#table {
+    height: 100%;
+    display: table; 
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+*/
+
+/*
+#tableContent {
+    display: table-cell; 
+    vertical-align: middle;
+}
+*/
+
+.form {
+    margin-top: 5%;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.error {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    display: inline-block;
+    padding: 0 1.5em;
+    background-color: rgba(220, 53, 69, 0.6);
+    border-radius: 5px;
+    color: white;
+    float: left;
+
+}
+
+.form-group {
+    padding-right: 2em;
+}
+
+.form-row {
+    height: 7em;
+}
+
+.col-form-label .fa-asterisk {
+    color: #dc3545;
+}
+
+
+small {
+    color: #1fad73;
+    font-weight: bold;
+}
+
+.content-form {
+    padding: 0 2em;
+}
+
+.col-form-label {
+    /*    color: #1fad73;*/
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+
+    #table {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+}
+

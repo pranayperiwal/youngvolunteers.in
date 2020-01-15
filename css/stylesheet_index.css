@@ -1,0 +1,89 @@
+
+#bg1 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.85),
+        rgba(20, 20, 20, .5)), url('../images/kids_playing.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.8;
+    min-height: 100%;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 0 4px;
+
+}
+
+
+#callToAction {
+    position: relative;
+    top: 2.9em;
+
+}
+
+#registerNGO {
+    margin: 20px;
+}
+
+#registerVolunteer {
+    margin: 20px;
+}
+
+.bg-light {
+    opacity: 0.95;
+}
+
+
+.btn-primary {
+    width: 15em;
+}
+
+#closeButtonModal {
+
+    float: right;
+}
+
+.readMore:hover {
+    text-decoration: none;
+}
+
+#ourStories {
+    clear: right;
+}
+
+section.sec {
+    margin: 0 0px 30px 0px;
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    line-height: 2em;
+    word-spacing: 0.08em;
+
+}
+
+.content-row {
+    padding: 20px;
+}
+
+section.darkerSec {
+    background: rgba(237, 237, 237, 0.74);
+    margin-bottom: 0;
+}
+
+
+#maintext {
+    font-family: 'Handlee', cursive;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    line-height: 80px;
+    font-size: 3.2em;
+}
+
+#founderImg {
+    height: 12rem;
+}
+
+

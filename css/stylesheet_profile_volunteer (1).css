@@ -1,0 +1,98 @@
+
+
+.content h1 {
+    text-align: center; 
+    margin-bottom: 0.5em;
+}
+
+#formContent {
+    margin-left: 250px;
+}
+
+.form-group input, .form-group select, .form-group textarea  {
+    background-color: #f2f2f2;
+}
+
+.form-group input[readonly] {
+    background-color: rgba(180, 188, 183, 0.88);
+    cursor:inherit; 
+}
+
+.fa-asterisk {
+    color: #dc3545;
+}
+
+label {
+    font-weight: bold;
+}
+
+.error {
+    margin-top: 0.4em;
+    display: inline-block;
+    padding: 0 1.5em;
+    background-color: rgba(220, 53, 69, 0.6);
+    border-radius: 5px;
+    color: white;
+    float: left;
+    
+}
+
+/*
+
+.navbar-brand{
+    margin-left: 250px;
+    transition: margin-left 0.5s;
+}
+*/
+
+.navbar {
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+
+
+@media (max-width:800px) {
+    #sidebarContainer{
+        display: show;
+        height: 100%;
+        transition: 3s;
+        position: relative;
+    }
+
+    .navbar-brand{
+        margin-left: 0;    
+    }
+
+
+    #sidebarButton{
+        color: black;
+    }
+
+
+    #sidebarWrap li a {
+        display: block;
+        text-decoration: none;
+        color: #999999;
+    }
+
+
+    #sidebarWrap li a:active, #sidebarWrap li a:focus {
+        text-decoration: none;
+    }
+
+    #sidebarWrap .active {
+        border-right: 5px solid white;
+        color: white;
+    }
+
+    .content {
+        padding:1em 1em;
+    }
+
+
+
+}
+
+

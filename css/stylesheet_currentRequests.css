@@ -1,0 +1,79 @@
+
+#total {
+    margin-left: 400px;
+}
+
+
+
+.cardContent {
+    margin-left: 250px;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+
+.description {
+    width: 75%;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+
+}
+
+.confirm {
+    width: 10em;
+}
+
+.imgNGO {
+    margin: 0 1em;
+    padding: 1em;
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1em;
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
+
+.containerCard {
+    padding: 0;
+}
+
+/* Sidebar Styles */
+
+
+
+@media (max-width:600px) {
+
+    .card-title {
+        text-align: center;
+    }
+
+    .card-header {
+        text-align: center;
+    }
+
+    .content {
+        padding: 0 0 2%;
+    }
+
+
+    .navbar-brand {
+        margin-left: 0px;
+        transition: margin-left 0.5s;
+    }
+
+    #sidebar {
+        overflow-y: scroll;
+    }
+
+
+    button {
+        width: 5rem;
+    }
+
+
+}

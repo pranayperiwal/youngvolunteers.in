@@ -1,0 +1,86 @@
+
+
+.cardContent {
+    margin-left: 250px;
+    margin-top: 1em;
+    margin-bottom:0;
+}
+
+
+
+.card-body {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 2em;
+
+}
+
+.imgV {
+    margin: 0 0em;
+    padding: 1em;
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    box-sizing: border-box;
+/*    padding: 1em;*/
+    float: right;
+    
+}
+
+.containerCard {
+    padding: 0;
+}
+
+
+
+
+
+@media (max-width:800px) {
+    #sidebarContainer{
+        display: show;
+        height: 100%;
+        transition: 3s;
+        position: relative;
+    }
+
+    .navbar-brand{
+        margin-left: 0;    
+    }
+
+
+    #sidebarButton{
+        color: black;
+    }
+
+
+    #sidebarWrap li a {
+        display: block;
+        text-decoration: none;
+        color: #999999;
+    }
+
+
+    #sidebarWrap li a:active, #sidebarWrap li a:focus {
+        text-decoration: none;
+    }
+
+    #sidebarWrap .active {
+        border-right: 5px solid white;
+        color: white;
+    }
+
+    .content {
+        padding:1em 1em;
+    }
+    
+    #total {
+        margin-left: 290px;
+    }
+
+
+
+
+}
+
+

@@ -1,0 +1,181 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    line-height: 1.8em;
+    font-size: 16px;
+    color: #666;
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    border: none;
+    z-index: 99;
+    transition: background-color 1s ease 0s;
+}
+
+.navbar {
+
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+}
+
+.
+
+footer {
+    background-color: #333;
+}
+    
+.content {
+
+    width:85%;
+    padding:3em 3em;
+    margin: 0 auto;   
+}
+
+.content h1 {
+    text-align: center; 
+    margin-bottom: 0.5em;
+}
+
+#formContent {
+    transition: margin-left 0.5s;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+.navbar-brand{
+    margin-left: 250px;
+    transition: margin-left 0.5s;
+}
+
+.navbar {
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+
+
+/* Sidebar Styles */
+.container-fluid #sidebar {
+    background: #000 ;
+    opacity: 0.9;
+    color: white !important;
+}
+.container-fluid {
+    height: auto;
+    padding: 0;
+    background-color: pink;  
+}
+
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+#sidebarWrap {
+    padding-left: 0;
+}
+
+#sidebarWrap li {
+    text-align: left;
+    line-height: 28px;
+    list-style: none;
+
+}
+
+#sidebar .btn-close {
+    display: block;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;        
+}
+
+#sidebar .btn-close:hover {
+    text-decoration: none;
+    font-weight: 800;
+}
+
+#sidebarWrap li a {
+
+    display: block;
+    text-decoration: none;
+    color: #999999;
+    transition: 0.2s;
+    white-space: nowrap;
+}
+
+#sidebarWrap li a:hover {
+    text-decoration: none;
+    color: #fff;
+    border-right: 5px solid white;
+}
+
+#sidebarWrap li a:active, #sidebarWrap li a:focus {
+    text-decoration: none;
+}
+
+#sidebarWrap .active {
+    border-right: 5px solid white;
+    color: white;
+}
+
+
+
+
+@media (max-width:800px) {
+    #sidebarContainer{
+        display: show;
+        height: 100%;
+        transition: 3s;
+        position: relative;
+    }
+
+    .navbar-brand{
+        margin-left: 0;    
+    }
+
+
+    #sidebarButton{
+        color: black;
+    }
+
+
+    #sidebarWrap li a {
+        display: block;
+        text-decoration: none;
+        color: #999999;
+    }
+
+
+    #sidebarWrap li a:active, #sidebarWrap li a:focus {
+        text-decoration: none;
+    }
+
+    #sidebarWrap .active {
+        border-right: 5px solid white;
+        color: white;
+    }
+
+    .content {
+        padding:1em 1em;
+    }
+
+
+
+}
+
+

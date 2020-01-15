@@ -1,0 +1,156 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    line-height: 1.8em;
+    font-size: 16px;
+    color: #666;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.logo {
+    text-indent: -999999px;
+    background: url('../images/logo/young%20volunteers%20-%20250px.png');
+    width: 250px;
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0.1em 0 0 0.5em;
+}
+
+#bg1 {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.8;
+    min-height: 100%;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    height: auto;
+    padding: 0 4px;
+
+}
+
+.btn-success {
+    background-color: #1fad73;
+    border-color: #1fad73;
+}
+
+.btn-success:hover {
+    background-color: #128456;
+    border-color: #128456;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    padding-bottom: 0;
+    border-bottom: 4px solid #1fad73;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    padding-bottom: 0;
+    border-bottom: 4px solid #1fad73;
+}
+
+.btn-primary {
+    /*    box-shadow: 0 3px 0 0 #007299;*/
+    background-color: rgba(0, 114, 153, 0.79);
+    border-color: #fff;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: white;
+    width: 9em;
+}
+
+
+.btn-primary:active {
+    background: rgb(3, 86, 114);
+    box-shadow: none;
+
+}
+
+.btn-primary:hover {
+    background: rgb(0, 82, 109);
+    box-shadow: none;
+
+}
+
+.navbar {
+
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+
+}
+
+#navbar-collapse {
+    margin: 0.1em 1.5em 0 0;
+}
+
+.nav-item {
+    margin-right: 0.5em;
+
+}
+
+
+.error {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    display: inline-block;
+    padding: 0 1.5em;
+    background-color: rgba(220, 53, 69, 0.6);
+    border-radius: 5px;
+    color: white;
+    float: left;
+
+}
+
+#closeButtonModal {
+
+    float: right;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    padding: 3%;
+    text-align: center;
+}
+
+footer a {
+    color: #7b7b7b;
+    line-height: 1.3em;
+    
+}
+
+.fab {
+    font-size: 2em;
+}
+
+footer a:hover {
+    color: #c3c3c3;
+}
+
+#foot_heading {
+    color:white;
+    font-weight:bold
+}
+
+.col-md-4 p {
+    margin-bottom: 1.5em;
+}

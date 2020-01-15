@@ -1,0 +1,68 @@
+
+.navbar {
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden; 
+    
+}
+
+.container-fluid{
+    min-height: 90%;
+}
+
+
+.cardContent {
+    margin-left: 250px;
+    margin-top: 1em;
+    margin-bottom:0;
+}
+
+.cardContent .content {
+    padding:1em 3em;    
+}
+
+.description {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+
+}
+
+#total {
+    margin-left: 410px;
+}
+
+.containerCard {
+    padding: 0;
+}
+
+@media (max-width:600px){
+
+    .card-title {
+        text-align: center;
+    }
+
+    .card-header {
+        text-align: center;
+    }
+
+    .content {
+        padding: 0 0 2%;
+    } 
+
+
+    .navbar-brand{
+        margin-left: 0px;
+        transition: margin-left 0.5s;
+    }
+    
+     #total {
+        margin-left: 290px;
+    }
+
+}
+
+
+

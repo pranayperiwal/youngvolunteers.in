@@ -1,0 +1,87 @@
+.navbar {
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.container-fluid {
+    min-height: 90%;
+}
+
+.cardContent {
+    margin-left: 250px;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+.content {
+
+    width: auto;
+    padding: 3em 3em;
+    margin: 0 auto;
+}
+
+#heading {
+    margin-left: 250px;
+
+}
+
+#total {
+    margin-left: 410px;
+}
+
+.description {
+    width: 75%;
+    display: inline-block;
+    margin: 0;
+    padding: 0em 1em;
+    box-sizing: border-box;
+
+}
+
+.imgNGO {
+    margin: 0 1em;
+    padding: 1em;
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1em;
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
+
+.containerCard {
+    padding: 0;
+}
+
+
+@media (max-width:600px) {
+
+    .card-title {
+        text-align: center;
+    }
+
+    .card-header {
+        text-align: center;
+    }
+
+    .content {
+        padding: 0 0 2%;
+    }
+
+    #heading {
+
+        margin-top: 56px;
+    }
+
+    #total {
+        margin-left: 290px;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+        transition: margin-left 0.5s;
+    }
+}

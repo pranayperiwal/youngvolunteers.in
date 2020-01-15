@@ -1,0 +1,154 @@
+
+.container-fluid{
+    min-height: 95%;
+}
+
+.cardContent {
+    margin-left: 250px;
+    margin-top: 2em;
+    margin-bottom:0;
+}
+
+.content {
+
+    width: auto;
+    padding: 3em 3em;
+    margin: 0 auto;
+
+}
+
+#heading {
+    margin-left: 250px;
+
+}
+
+
+.description {
+    width: 75%;
+    display: inline-block;
+    margin: 0;
+    padding: 2em;
+    box-sizing: border-box;
+
+}
+
+.imgNGO {
+    margin: 0 1em;
+    padding: 1em;
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1em;
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
+
+.containerCard {
+    padding: 0;
+}
+
+/* Sidebar Styles */
+
+/*
+.container-fluid #sidebar {
+    background: #000 ;
+    opacity: 0.9;
+    color: white !important;
+}
+*/
+
+#sidebar:hover {
+    overflow-y: scroll;
+}
+
+
+.containFilters {
+    padding: 0.7em;
+    margin: 1em;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    height: 15rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.containFilters::-webkit-scrollbar{
+    width: 10px;
+}
+
+.containFilters::-webkit-scrollbar-thumb{
+    background-color: #c3bfbf;
+    border: 10px solid transparent;
+    border-radius: 2px;
+}
+
+.containFilters::-webkit-scrollbar-track{
+    background-clip: content-box;
+    background-color: #333;
+    border: 4px solid transparent;
+}
+
+.side-nav::-webkit-scrollbar{
+    width: 10px;
+}
+
+.side-nav::-webkit-scrollbar-thumb{
+    background-color: rgb(100, 100, 100);
+    border: 10px solid transparent;
+    border-radius: 2px;
+}
+
+.side-nav::-webkit-scrollbar-track{
+    background-clip: content-box;
+    background-color: #333;
+    border: 4px solid transparent;
+}
+
+
+.custom-control {
+    margin: 0.4em 0;
+}
+
+.searchBox {
+    white-space: nowrap;
+    color: white;
+}
+
+.sliderTime {
+    margin: 0 1em;
+    height: auto;    
+}
+
+
+
+@media (max-width:600px){
+
+    .card-title {
+        text-align: center;
+    }
+
+    .card-header {
+        text-align: center;
+    }
+
+    .content {
+        padding: 0 0 2%;
+    } 
+
+    #heading {
+
+        margin-top: 56px;
+    }
+
+    .navbar-brand{
+        margin-left: 0px;
+        transition: margin-left 0.5s;
+    }
+    
+    #sidebar {
+        overflow-y: scroll;
+    }
+}
+
